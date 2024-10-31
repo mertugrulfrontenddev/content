@@ -148,14 +148,9 @@ p {
   
     object-fit: cover;
   
-    transition: all 300ms;
-    cursor: pointer;
+    
   }
 
-  .box-up.up {
-    margin: 80px; /* Tıklama ile yüksekliği artır */
-     /* Gerekirse başka stiller de ekleyin */
-     
-   }
+  
 
 }
