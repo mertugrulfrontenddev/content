@@ -107,7 +107,11 @@ p {
     margin-top: 250px; /* Yüksekliği artırarak diğer elemanları ittir */
   }
 
-  
+  .up {
+    opacity: 0.6;
+    
+    
+  }
 }
 
 
