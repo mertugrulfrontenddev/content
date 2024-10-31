@@ -103,15 +103,9 @@ p {
 
   
   
-  .content.active {
-    margin-top: 250px; /* Yüksekliği artırarak diğer elemanları ittir */
-  }
+  .up.active{margin-top: 150px;}
 
-  .up {
-    opacity: 0.6;
-    
-    
-  }
+  
 }
 
 
