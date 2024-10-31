@@ -12,8 +12,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  height: 100vh;
-}
+  
 
 .container {
   display: flex;
@@ -120,6 +119,8 @@ p {
 
   .container {
  flex-direction: column;
+
+
     
   }
 
