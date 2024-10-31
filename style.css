@@ -55,13 +55,6 @@ body {
 
   background-color: rgba(48, 197, 48, 0.623);
   
-
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: center;
   min-height: 230px;
 }
 
@@ -131,7 +124,7 @@ p {
   
     
   
-    flex: 1;
+    
     
   }
 
