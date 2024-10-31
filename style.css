@@ -62,7 +62,7 @@ body {
 
   align-items: center;
   justify-content: center;
-  min-height: 230px;
+  min-height: 200px;
 }
 
 img {
@@ -137,8 +137,8 @@ p {
 
   .content {
     position: relative; /* Kendi stacking context'ini oluşturur */
-    width: 230px;
-    height: 250px;
+    width: 150px;
+    height: 170px;
     text-align: center;
    
 
