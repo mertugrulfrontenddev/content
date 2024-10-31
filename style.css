@@ -106,9 +106,9 @@ p {
     margin-top: 280px;
     
   }
+  .content.active {
+    height: 400px; /* Yüksekliği artırarak diğer elemanları ittir */
+  }
 }
 
 
-.content.active {
-  height: 400px; /* Yüksekliği artırarak diğer elemanları ittir */
-}
