@@ -13,7 +13,7 @@ boxes.forEach((box) => {
 
     singleClickTimer = setTimeout(() => {
       if (lastBox !== box && firstBox !== box) {
-        if (!box.classList.contains("up") && !box.classList.contains("down")) {
+        if (!box.classList.contains("active") && !box.classList.contains("down")) {
           
           box.parentElement.classList.add("active");
         } else {
