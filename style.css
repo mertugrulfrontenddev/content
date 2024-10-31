@@ -36,9 +36,13 @@ body {
 }
 
 .box-up {
-  position: static; /* Normal akışta kalır */
-  z-index: 2; 
+  position: relative;
+ 
+  
+  z-index: 2; /* Diğer kutudan daha yüksek bir z-index */
+
   object-fit: cover;
+
   transition: all 300ms;
   cursor: pointer;
 }
