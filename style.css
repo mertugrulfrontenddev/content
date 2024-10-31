@@ -155,9 +155,7 @@ p {
   .box-up.up {
     margin: 80px; /* Tıklama ile yüksekliği artır */
      /* Gerekirse başka stiller de ekleyin */
-     opacity: 0.6;
-     transform-origin: center;
-     transform: translateY(-100%);
+     
    }
 
 }
