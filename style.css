@@ -64,8 +64,7 @@ p {
 
 .up {
   opacity: 0.6;
-  transform-origin: center;
-  transform: translateY(-100%);
+  
 }
 
 .down {
