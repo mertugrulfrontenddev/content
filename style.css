@@ -131,7 +131,7 @@ p {
   
     
   
-   
+    flex: 1;
     
   }
 
@@ -140,7 +140,8 @@ p {
     width: 230px;
     height: 250px;
     text-align: center;
-    display: flex;
+   
+
     
   }
 
