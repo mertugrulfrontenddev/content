@@ -138,7 +138,7 @@ p {
   .content {
     position: relative; /* Kendi stacking context'ini oluşturur */
     width: 230px;
-    height: 250px;
+    height: 270px;
     text-align: center;
    
 
