@@ -152,4 +152,9 @@ p {
     cursor: pointer;
   }
 
+  .box-up.up {
+    margin-top: 80px; /* Tıklama ile yüksekliği artır */
+     /* Gerekirse başka stiller de ekleyin */
+   }
+
 }
