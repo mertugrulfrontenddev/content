@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(223, 223, 33, 0.747);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  position: relative; /* Kendi stacking context'ini oluşturur */
+  width: 230px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  margin: 10px;
+}
+
+.boxes {
+  margin-left: 10px;
+}
+
+.box-up {
+  position: absolute;
+ 
+  
+  z-index: 2; /* Diğer kutudan daha yüksek bir z-index */
+
+  object-fit: cover;
+
+  transition: all 300ms;
+  cursor: pointer;
+}
+.box-down {
+  position: absolute;
+   /* .box-up'ın altında konumlandırıyoruz */
+  
+ 
+  z-index: 1; /* Daha düşük bir z-index */
+
+  background-color: rgba(48, 197, 48, 0.623);
+  
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  min-height: 230px;
+}
+
+img {
+  max-width: 220px;
+  min-height: 230px;
+}
+
+p {
+  color: rgb(250, 246, 246);
+  font-weight: 500;
+
+  
+
+  flex: 1;
+  padding: 30px 20px 20px 20px;
+}
+
+.up {
+  opacity: 0.6;
+  transform-origin: center;
+  transform: translateY(-100%);
+ 
+}
+
+
+.down{
+
+    opacity: 0.6;
+    transform-origin: center;
+    transform: translateY(100%);
+
+}
+
+.right{
+
+  opacity: 0.6;
+  transform-origin: center;
+  transform: translateX(100%);
+
+}
+
+
+.left{
+
+  opacity: 0.6;
+  transform-origin: center;
+  transform: translateX(-100%);
+
+}
