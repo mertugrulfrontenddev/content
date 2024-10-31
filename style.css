@@ -135,4 +135,13 @@ p {
     
   }
 
+  .content {
+    position: relative; /* Kendi stacking context'ini oluşturur */
+    width: 230px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    
+  }
+
 }
