@@ -6,12 +6,6 @@
 
 body {
   background: rgb(250, 239, 80);
-
-  
-
-
-
-  
 }
 
 .container {
@@ -19,7 +13,6 @@ body {
 
   align-items: center;
   justify-content: center;
-  
 }
 
 .content {
@@ -37,8 +30,7 @@ body {
 
 .box-up {
   position: absolute;
- 
-  
+
   z-index: 2; /* Diğer kutudan daha yüksek bir z-index */
 
   object-fit: cover;
@@ -48,13 +40,12 @@ body {
 }
 .box-down {
   position: absolute;
-   /* .box-up'ın altında konumlandırıyoruz */
-  
- 
+  /* .box-up'ın altında konumlandırıyoruz */
+
   z-index: 1; /* Daha düşük bir z-index */
 
   background-color: rgba(48, 197, 48, 0.623);
-  
+
   min-height: 230px;
 }
 
@@ -67,8 +58,6 @@ p {
   color: rgb(250, 246, 246);
   font-weight: 500;
 
-  
-
   flex: 1;
   padding: 30px 20px 20px 20px;
 }
@@ -77,78 +66,44 @@ p {
   opacity: 0.6;
   transform-origin: center;
   transform: translateY(-100%);
- 
 }
 
-
-.down{
-
-    opacity: 0.6;
-    transform-origin: center;
-    transform: translateY(100%);
-
+.down {
+  opacity: 0.6;
+  transform-origin: center;
+  transform: translateY(100%);
 }
 
-.right{
-
+.right {
   opacity: 0.6;
   transform-origin: center;
   transform: translateX(100%);
-
 }
 
-
-.left{
-
+.left {
   opacity: 0.6;
   transform-origin: center;
   transform: translateX(-100%);
-
 }
 
-
-
 @media (max-width: 700px) {
-
   .container {
     display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   p {
     color: rgb(250, 246, 246);
     font-weight: 500;
-  
+
     font-size: small;
-  
-    
-    
   }
 
- 
-  .box-up {
   
-   
-    
-    z-index: 2; /* Diğer kutudan daha yüksek bir z-index */
-  
-    object-fit: cover;
-  
-    
-  }
-
-
   .box-up.up {
-    
-    margin-top: 80px;
-    height: 300px;
-   
+    margin-top: 280px;
+    height: 400px;
   }
-
-
-  
-
 }
