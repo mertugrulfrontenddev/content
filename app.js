@@ -15,6 +15,7 @@ boxes.forEach((box) => {
       if (lastBox !== box && firstBox !== box) {
         if (!box.classList.contains("up") && !box.classList.contains("down")) {
           box.classList.add("up");
+          box.parentElement.classList.add("active");
         } else {
           box.classList.remove("up");
         }
