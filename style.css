@@ -103,9 +103,13 @@ p {
 
   
   
-  .up.active{margin-top: 150px;}
+  .active{margin-top: 150px;}
 
-  
+  .up {
+    opacity: 0.6;
+    
+    
+  }
 }
 
 
