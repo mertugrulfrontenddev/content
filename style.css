@@ -36,7 +36,7 @@ body {
 }
 
 .box-up {
-  position: relative;
+  position: absolute;
  
   
   z-index: 2; /* Diğer kutudan daha yüksek bir z-index */
