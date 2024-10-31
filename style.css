@@ -107,7 +107,7 @@ p {
 }
 
 .box-up.up {
-  height: 400px; /* Tıklama ile yüksekliği artır */
+ margin-top: 80px; /* Tıklama ile yüksekliği artır */
   /* Gerekirse başka stiller de ekleyin */
 }
 
